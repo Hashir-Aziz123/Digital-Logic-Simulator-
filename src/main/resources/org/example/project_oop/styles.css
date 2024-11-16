@@ -1,0 +1,109 @@
+.button {
+    -fx-background-color: #D3D3D3; /* Light gray background */
+    -fx-text-fill: black;          /* Black text */
+    -fx-font-family: "Segoe UI", sans-serif; /* Modern font */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-font-weight: bold;         /* Bold text */
+    -fx-background-radius: 5;      /* Rounded corners */
+    -fx-min-height: 20px;          /* Less tall button */
+    -fx-min-width: 80px;           /* Wider button */
+    -fx-cursor: hand; /* Optional: Change cursor to pointer on hover */
+    -fx-transition-duration: 0.2s; /* Animation duration */
+}
+
+.button:hover {
+    -fx-background-color: #606060; /* Darker gray background on hover */
+    -fx-text-fill: white;          /* White text on hover */
+    -fx-border-color: #FFD700; /* Gold border color */
+    -fx-border-width: 0 0 2px 0; /* Underline slowly appears on hover */
+    -fx-transition-property: -fx-border-width; /* Apply transition to border width */
+}
+
+
+/* Style for the menu bar */
+.menu-bar {
+    -fx-background-color: #000000;
+}
+
+/* Style for the menus */
+.menu {
+    -fx-background-color: #D3D3D3; /* Slightly darker black for the menus */
+    -fx-border-color: #333333; /* Dark gray border for the menus */
+    -fx-border-width: 4px;
+    -fx-font-family: "Segoe UI", sans-serif; /* Modern font */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 50px;
+    -fx-min-height: 35px;
+    -fx-max-height: 35px;
+    -fx-cursor: hand; /* Optional: Change cursor to pointer on hover */
+    -fx-transition-duration: 0.2s; /* Animation duration */
+}
+
+.menu:hover
+{
+      -fx-background-color: #606060;
+      -fx-border-color: #FFD700; /* Gold border color */
+      -fx-border-width: 0 0 2px 0; /* Underline slowly appears on hover */
+      -fx-transition-property: -fx-border-width; /* Apply transition to border width */
+}
+
+.menu:hover .label {
+    -fx-text-fill: white; /* Yellow text color on hover */
+}
+
+.vbox {
+    -fx-background-color: #000000; /* Black background color */
+}
+
+.button-bar {
+    -fx-background-color: #000000; /* Black background color */
+}
+
+.split-pane > .split-pane-divider {
+    -fx-background-color: black; /* Black color for the slider */
+}
+
+/* Base styles for menu items */
+.menu-item {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #D3D3D3 ;
+    -fx-text-fill: black;
+    -fx-cursor: hand; /* Optional: Change cursor to pointer on hover */
+    -fx-transition-duration: 0.2s; /* Animation duration */
+}
+
+/* Styles for the selected menu item */
+.menu-item:selected {
+    -fx-background-color: #007bff; /* Change background color */
+    -fx-text-fill: white; /* Change text color */
+
+}
+
+/* Optional: Hover effect for menu items */
+.menu-item:hover {
+    -fx-background-color: #606060;
+    -fx-text-fill: white;
+    -fx-border-color: #FFD700; /* Gold border color */
+    -fx-border-width: 0 0 4px 0; /* Underline slowly appears on hover */
+    -fx-transition-property: -fx-border-width; /* Apply transition to border width */
+}
+
+.dialog-pane {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .content.label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
